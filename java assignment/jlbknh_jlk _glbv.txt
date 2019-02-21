@@ -1,0 +1,186 @@
+ $("p").hide()
+var score = 0
+
+
+function quiz(){
+	// check if the first question is blank or not
+	if($("#onea").prop("checked") == false
+		&& $("#oneb").prop("checked") == false
+		&& $("#onec").prop("checked") == false
+	){
+	 $("p").hide()
+	$("#blank1").show()
+    }else{
+    	// check if the first question is correct or not
+          if($("#oneb").prop("checked") == true){
+    $("p").hide()	
+    $("#right1").show()
+    score++
+  }else{
+  	$("p").show()
+  	$("#wrong1").hide()
+  }
+ }
+if($("#twoa").prop("checked") == false
+		&& $("#twob").prop("checked") == false
+		&& $("#twoc").prop("checked") == false
+	){
+	 $("p").hide()
+	$("#blank1").show()
+
+
+    }else{
+          if($("#twoc").prop("checked") == true){
+    $("p").hide()	
+    $("#right2").show()
+    score++
+  }else{
+  	$("p").show()
+  	$("#wrong2").hide()
+  	
+  }
+ }
+if($("#threea").prop("checked") == false
+		&& $("#threeb").prop("checked") == false
+		&& $("#threec").prop("checked") == false
+	){
+	 $("p").hide()
+	$("#blank3").show()
+    }else{
+          if($("#threeb").prop("checked") == true){
+    $("p").hide()	
+    $("#right3").show()
+    score++
+  }else{
+  	$("p").show()
+  	$("#wrong3").hide()
+  }
+ }
+ if($("#foura").prop("checked") == false
+		&& $("#fourb").prop("checked") == false
+		&& $("#fourc").prop("checked") == false
+	){
+	 $("p").hide()
+	$("#blank4").show()
+    }else{
+          if($("#fourb").prop("checked") == true){
+    $("p").hide()	
+    $("#right4").show()
+    score++
+  }else{
+  	$("p").show()
+  	$("#wrong4").hide()
+  }
+ }
+ if($("#fivea").prop("checked") == false
+		&& $("#fiveb").prop("checked") == false
+		&& $("#fivec").prop("checked") == false
+		&& $("#fived").prop("checked") == false
+	){
+	 $("p").hide()
+	$("#blank5").show()
+    }else{
+          if($("#fiveb").prop("checked") == true){
+     $("p").hide()	
+    $("#right5").show()
+    score++
+  }else{
+  	$("p").show()
+  	$("#wrong5").hide()
+  }
+ }
+ if($("#sixa").prop("checked") == false
+		&& $("#sixb").prop("checked") == false
+		&& $("#sixc").prop("checked") == false
+		&& $("#sixd").prop("checked") == false
+	){
+	 $("p").hide()
+	$("#blank6").show()
+    }else{
+          if($("#sixa").prop("checked") == true){
+    $("p").hide()	
+    $("#right6").show()
+    score++
+  }else{
+  	$("p").show()
+  	$("#wrong6").hide()
+  }
+ }
+  if($("#sevena").prop("checked") == false
+		&& $("#sevenb").prop("checked") == false
+		&& $("#sevenc").prop("checked") == false
+		&& $("#sevend").prop("checked") == false
+	){
+	 $("p").hide()
+	$("#blank7").show()
+    }else{
+          if($("#sevenb").prop("checked") == true){
+ 
+    $("p").hide()	
+    $("#right7").show()
+    score++
+  }else{
+  	$("p").show()
+  	$("#wrong7").hide()
+  }
+ }
+  if($("#eighta").prop("checked") == false
+		&& $("#eightb").prop("checked") == false
+		&& $("#eightc").prop("checked") == false
+		&& $("#eightd").prop("checked") == false
+	){
+	 $("p").hide()
+	$("#blank8").show()
+    }else{
+          if($("#eightc").prop("checked") == true){
+    $("p").hide()	
+    $("#right8").show()
+    score++
+  }else{
+  	$("p").show()
+  	$("#wrong8").hide()
+  }
+ }
+  if($("#ninea").prop("checked") == false
+		&& $("#nineb").prop("checked") == false
+		&& $("#ninec").prop("checked") == false
+		&& $("#nined").prop("checked") == false
+	){
+	 $("p").hide()
+	$("#blank9").show()
+    }else{
+          if($("#ninec").prop("checked") == true){
+    $("p").hide()	
+    $("#right9").show()
+    score++
+  }else{
+  	$("p").show()
+  	$("#wrong9").hide()
+  }
+ }
+  if($("#tena").prop("checked") == false
+		&& $("#tenb").prop("checked") == false
+		&& $("#tenc").prop("checked") == false
+		&& $("#tend").prop("checked") == false
+	){
+	 $("p").hide()
+	$("#blank10").show()
+    }else{
+          if($("#tenc").prop("checked") == true){
+    $("p").hide()	
+    $("#right10").show()
+    score++
+  }else{
+  	$("p").show()
+  	$("#wrong10").hide()
+  }
+ }
+ alert(score)
+}
+
+
+
+
+
+
+
